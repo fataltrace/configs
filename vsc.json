@@ -7,5 +7,6 @@
     "editor.renderWhitespace": "all",
     "editor.lineNumbers": "on",
     "workbench.colorTheme": "Kimbie Dark",
-    "emmet.includeLanguages": { "javascript": "javascriptreact" }
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
+    "eslint.options": { "configFile": "./.eslintrc.yml" }
 }
