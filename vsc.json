@@ -6,7 +6,16 @@
     "editor.tabSize": 2,
     "editor.renderWhitespace": "all",
     "editor.lineNumbers": "on",
-    "workbench.colorTheme": "Kimbie Dark",
-    "emmet.includeLanguages": { "javascript": "javascriptreact" },
-    "eslint.options": { "configFile": "./.eslintrc.yml" }
+    "workbench.colorTheme": "Plastic",
+    "emmet.includeLanguages": { 
+        "javascript": "javascriptreact",
+        "postcss": "css"
+    },
+    "emmet.syntaxProfiles": {
+      "postcss": "css"
+    },
+    "eslint.options": { "configFile": "./.eslintrc.yml" },
+    "files.associations": {
+        "*.css": "postcss"
+    }
 }
