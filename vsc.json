@@ -1,21 +1,23 @@
 {
     "files.autoSave": "onFocusChange",
+    "editor.rulers": [120],
     "editor.fontSize": 14,
     "editor.fontFamily": "Iosevka, monospace",
     "editor.cursorStyle": "block",
     "editor.tabSize": 2,
     "editor.renderWhitespace": "all",
     "editor.lineNumbers": "on",
-    "workbench.colorTheme": "Plastic",
+    "workbench.colorTheme": "Plastic - deprioritised punctuation",
     "emmet.includeLanguages": { 
         "javascript": "javascriptreact",
-        "postcss": "css"
+        "css": "css"
     },
-    "emmet.syntaxProfiles": {
-      "postcss": "css"
+    "eslint.options": {
+        "configFile": "./NodeJsServices/transformator-service/.eslintrc.yml"
     },
-    "eslint.options": { "configFile": "./.eslintrc.yml" },
+    "window.zoomLevel": 0,
     "files.associations": {
-        "*.css": "postcss"
-    }
+       "*.css": "postcss"
+    },
+    "diffEditor.ignoreTrimWhitespace": false
 }
