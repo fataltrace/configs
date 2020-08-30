@@ -1,0 +1,28 @@
+game_type 0;
+game_mode 2;
+
+rcon mp_warmup_end
+rcon mp_restartgame 5
+rcon mp_switchteams
+
+rcon exec 2on2;
+
+rcon tv_enable 1;
+rcon tv_record "demo_name";
+
+rcon tv_autorecord 1;
+rcon tv_maxclients 0;
+
+rcon changelevel de_cbble
+rcon changelevel de_overpass
+rcon changelevel de_shortnuke
+
+rcon mp_limitteams 2
+rcon mp_autoteambalance 0
+
+mp_humanteam any
+
+connect tommen.dathost.net:27500; password "passwd"
+rcon_password "admin_passwd"
+
+# steam token generator:  http://steamcommunity.com/dev/managegameservers
